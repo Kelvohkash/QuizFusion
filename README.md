@@ -28,6 +28,7 @@ java -cp "lib/gson-2.10.1.jar;src" com.quizfusion.QuizFusion
 🧪 Sample Java Output
 text
 ? What is the capital of France?
+
   0) Berlin
   1) Madrid
   2) Paris
@@ -36,6 +37,7 @@ Your answer: 2
 ✅ Correct!
 
 ? Which language runs in a web browser?
+
   0) Java
   1) C
   2) Python
@@ -44,6 +46,7 @@ Your answer: 3
 ✅ Correct!
 
 ? Who developed Java?
+
   0) Microsoft
   1) Sun Microsystems
   2) Apple
@@ -58,8 +61,6 @@ Your answer: 3
 ```bash
 pip install matplotlib
 📈 Run the analysis script:
-```
-```bash
 python analysis/analyze_results.py
 ```
 🖼️ Pie Chart Output:
@@ -71,6 +72,12 @@ The chart clearly visualizes performance distribution:
 
 🟩 Correct — 2 out of 3
 🟥 Incorrect — 1 out of 3.
+
+## 🖼️ Screenshot
+
+Here’s a sample run of QuizFusion with result analysis:
+
+![QuizFusion Screenshot](assets/result.png)
 
 📄 JSON Question Bank
 ```json
