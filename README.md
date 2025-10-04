@@ -14,28 +14,6 @@
 
 ---
 
-## 📂 Project Structure
-
-QuizFusion/
-├── src/
-│ └── com/ 
-│ └── quizfusion/ 
-│ ├── QuizFusion.java
-│ ├── QuizEngine.java
-│ ├── Question.java 
-│ └── ResultExporter.java 
-├── data/ 
-│ ├── questions.json 
-│ └── results.json 
-├── analysis/ 
-│ └── analyze_results.py 
-├── lib/ 
-│ └── gson-2.10.1.jar
-├── README.md 
-└── LICENSE
-
----
-
 ## 🚀 How to Run
 
 ### 🔧 Compile Java files with Gson:
