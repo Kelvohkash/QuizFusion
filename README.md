@@ -59,8 +59,9 @@ Your answer: 3
 📊 Python Result Analysis
 📦 Install matplotlib:
 ```bash
-pip install matplotlib
 📈 Run the analysis script:
+
+pip install matplotlib
 python analysis/analyze_results.py
 ```
 🖼️ Pie Chart Output:
