@@ -1,7 +1,6 @@
 # 🎯 QuizFusion
 
 **QuizFusion** is a modular, multi-language quiz engine built in Java, powered by JSON-based question banks and Python-driven result analytics. Designed for developers, learners, and educators who want a clean, branded, and extensible quiz platform.
-
 ---
 
 ## 🧠 Features
@@ -11,7 +10,6 @@
 - 📊 Python analytics with pie chart visualization
 - 📁 Result export to JSON for cross-language integration
 - 🧩 Modular file structure for clarity and scalability
-
 ---
 
 ## 🚀 How to Run
@@ -100,5 +98,6 @@ Here’s a sample run of QuizFusion with result analysis:
   }
 ]
 ```
+
 🖋️ Author
 Crafted by Murad — visionary full-stack developer and system architect. Branded, modular, and elegant — just the way code should be.
